@@ -257,11 +257,21 @@ p {
   width: 180px;
 }
 
+@media only screen and (min-width: 20em) {
+
+  .bio {
+    margin-top: 30px;
+  }
+}
 @media only screen and (min-width: 34em) {
 
   li {
     padding-left: 30px;
     display: inline-block;
+  }
+
+  .bio {
+    margin-top: 60px;
   }
 
 }
